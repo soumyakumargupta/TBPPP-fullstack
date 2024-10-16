@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+position: fixed;
+width: 100%;
+}
+
+li{
+    display:inline;
+}
+
+.photosection{
+    background-image: url("w3/p1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.text{
+text-align-last: center;
+
+}
+
+.about .caption{
+    text-align: center;
+    margin-top: 3vh;
+    font-style: italic;
+}
+.about p{
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.about .person{
+    margin-top: 20px;
+}
+
+.about .person img:hover{
+    margin-top: 40px;
+    display: block;
+    height: 300px;
+    width: 400px;
+    margin-left: 300px;
+}
+
+.material-symbols-outlined{
+    margin-left: 300px;
+}
